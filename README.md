@@ -1,6 +1,6 @@
 # go-gin-server-sample
 
-## Docker Compoer Install
+## Docker Compose Install
 
 https://docs.docker.com/compose/install/
 
