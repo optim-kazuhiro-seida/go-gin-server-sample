@@ -1,1 +1,0 @@
-# go-gin-server-sample

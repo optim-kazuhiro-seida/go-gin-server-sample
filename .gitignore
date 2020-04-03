@@ -1,0 +1,4 @@
+.openapi-generator
+api
+go/*
+!go/api_*.go
