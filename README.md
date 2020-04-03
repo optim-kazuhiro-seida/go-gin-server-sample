@@ -1,13 +1,9 @@
 # go-gin-server-sample
 
-## Docker Compose Install
+* Docker Compose Install - https://docs.docker.com/compose/install/
 
-https://docs.docker.com/compose/install/
+* OpenAPI Generator Image Pull - https://hub.docker.com/r/openapitools/openapi-generator-cli/
 
-## OpenAPI Generator Image Pull
-
-https://hub.docker.com/r/openapitools/openapi-generator-cli/
-
-## Generate Commnad
+# Generate Commnad
 
 `docker-compose up`
