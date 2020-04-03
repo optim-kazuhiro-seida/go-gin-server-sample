@@ -1,9 +1,15 @@
 version: '3'
 services:
-    sample-generator:
-        image: openapitools/openapi-generator-cli
-        command: generate -i /local/openapi.yml -g go-gin-server -o /project
-        volumes:
-            - ./openapi:/local
-            - .:/project
+    sample-server-generator:
+      image: openapitools/openapi-generator-cli
+      command: generate -i /local/openapi.yml -g go-gin-server -o /project
+      volumes:
+          - ./openapi:/local
+          - .:/project
+    sample-client-generator:
+      image: openapitools/openapi-generator-cli
+      command: generate -i /local/openapi.yml -g go -o /project/client
+      volumes:
+          - ./openapi:/local
+          - .:/project
 

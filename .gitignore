@@ -1,4 +1,5 @@
 .openapi-generator
 api
+client
 go/*
 !go/api_*.go
